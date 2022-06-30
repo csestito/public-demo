@@ -1,12 +1,12 @@
 {
   "hosting": {
-    "target": "tryingpan-dev.web.app",
+    "site": "tryingpan-dev",
     "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
       {
-        "source": "/marketplace/**",
-        "destination": "https://xsoar-marketplace.pan.dev/marketplace/**",
+        "source": "/marketplace/details/:pack",
+        "destination": "https://xsoar-marketplace.pan.dev/marketplace/details/:pack",
         "type": 301
       }
     ]

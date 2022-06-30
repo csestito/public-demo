@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "tryingpan"
+  },
+  "targets": {
+    "tryingpan": {
+      "hosting": {
+        "tryingpan": [
+          "tryingpan-dev"
+        ]
+      }
+    }
   }
 }
