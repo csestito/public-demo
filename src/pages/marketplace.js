@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "@docusaurus/router";
 
-function NotMarketPlace() {
+function MarketPlace() {
   const location = useLocation();
   const newLocation = location.search
     ? `https://xsoar-marketplace.pan.dev/${location.search}`
@@ -22,4 +22,4 @@ function NotMarketPlace() {
   );
 }
 
-export default NotMarketPlace;
+export default MarketPlace;
