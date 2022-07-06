@@ -8,6 +8,11 @@
         "source": "/marketplace/details/:pack",
         "destination": "https://xsoar-marketplace.pan.dev/marketplace/details/:pack",
         "type": 301
+      },
+      {
+        "source": "/marketplace/contributors",
+        "destination": "https://xsoar-marketplace.pan.dev/marketplace/contributors",
+        "type": 301
       }
     ]
   }
